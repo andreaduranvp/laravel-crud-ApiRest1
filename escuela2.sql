@@ -39,10 +39,10 @@ CREATE TABLE `alumnos` (
 --
 
 INSERT INTO `alumnos` (`id`, `nombre`, `email`, `created_at`, `updated_at`) VALUES
-(null, 'andre', 'andre_rivera@hotmail.com', '2017-07-10 04:16:25', '2017-07-10 04:16:25'),
-(null, 'Jose', 'jose@hotmail.com', '2017-07-10 04:18:43', '2017-07-10 04:18:43'),
-(null, 'eduardo', 'eduardo@hotmail.com', '2017-07-11 02:53:33', '2017-07-11 02:53:33'),
-(null, 'karina', 'karina@hotmail.com', '2017-07-11 03:50:13', '2017-07-11 04:33:55');
+(1, 'andre', 'andre_rivera@hotmail.com', '2017-07-10 04:16:25', '2017-07-10 04:16:25'),
+(2, 'Jose', 'jose@hotmail.com', '2017-07-10 04:18:43', '2017-07-10 04:18:43'),
+(3, 'eduardo', 'eduardo@hotmail.com', '2017-07-11 02:53:33', '2017-07-11 02:53:33'),
+(4, 'karina', 'karina@hotmail.com', '2017-07-11 03:50:13', '2017-07-11 04:33:55');
 
 -- --------------------------------------------------------
 
@@ -64,9 +64,9 @@ CREATE TABLE `notas` (
 --
 
 INSERT INTO `notas` (`id`, `curso`, `nota`, `alumno_id`, `created_at`, `updated_at`) VALUES
-(null, 'Html', 20, 22, '2017-07-10 04:18:22', '2017-07-10 04:18:31'),
-(null, 'Corel Draw', 18, 23, '2017-07-10 04:19:32', '2017-07-10 04:45:54'),
-(null, 'Photoshop', 20, 23, '2017-07-10 04:19:48', '2017-07-10 04:19:48');
+(1, 'Html', 20, 22, '2017-07-10 04:18:22', '2017-07-10 04:18:31'),
+(2, 'Corel Draw', 18, 23, '2017-07-10 04:19:32', '2017-07-10 04:45:54'),
+(3, 'Photoshop', 20, 23, '2017-07-10 04:19:48', '2017-07-10 04:19:48');
 
 --
 -- Índices para tablas volcadas
